@@ -5,6 +5,11 @@ module.exports = {
     umd: false
   },
   webpack: {
+    module: {
+      rules: [
+        { parser: { amd: false } }
+      ]
+    },
     rules: {
       css: {
         options: {
