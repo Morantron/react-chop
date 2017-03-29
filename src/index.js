@@ -9,7 +9,7 @@ import flatten from 'lodash/flatten';
 import { propTypes, defaultProps, HORIZONTAL_DIRECTION } from './propTypes';
 import { getItemsRangeToRender, getNextScrollState, getFinalBufferingState, getNextBufferingState } from  './itemsChopper';
 
-import './styles.css';
+//import './styles.css';
 
 const HORIZONTAL_LENSES = {
   size: property('offsetWidth'),

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom'
 
+import '../../src/styles.css';
 import './styles.css';
 import ChopList from '../../src'
 
